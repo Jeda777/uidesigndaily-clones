@@ -1,0 +1,29 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  background: #ffa69e;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+a {
+  color: white;
+}
+a:hover {
+  border-bottom: solid white 1px;
+}
+
+@media (min-width: 768px) {
+  * {
+    font-size: 20px;
+  }
+}
