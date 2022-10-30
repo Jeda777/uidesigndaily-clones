@@ -1,6 +1,6 @@
 # UiDesignDaily Clones
 
-Collection of design clones from https://uidesigndaily.com/
+Collection of design clones from https://uidesigndaily.com made with HTML and CSS.
 
 - [Live site](https://jeda777.github.io/uidesigndaily-clones/)
 
