@@ -4,6 +4,11 @@ Collection of design clones from https://uidesigndaily.com made with HTML and CS
 
 - [Live site](https://jeda777.github.io/uidesigndaily-clones/)
 
+## Table of contents
+
+- [Package Details Timeline UI - 1578](#Package-Details-Timeline-UI---1578)
+- [Stats Cards - 1213](#Stats-Cards---1213)
+
 ## Package Details Timeline UI - 1578
 
 - [Live](https://jeda777.github.io/uidesigndaily-clones/Package%20Details%20Timeline%20UI-1578/index.html)
