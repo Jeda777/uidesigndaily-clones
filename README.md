@@ -9,4 +9,4 @@ Collection of design clones from https://uidesigndaily.com made with HTML and CS
 - [Live](https://jeda777.github.io/uidesigndaily-clones/Package%20Details%20Timeline%20UI-1578/index.html)
 - [Design](https://uidesigndaily.com/posts/figma-timeline-ui-design-card-day-1578)
 
-![](./Package%20Details%20Timeline%20UI/Screenshot.png)
+![](./Package%20Details%20Timeline%20UI-1578/Screenshot.png)
