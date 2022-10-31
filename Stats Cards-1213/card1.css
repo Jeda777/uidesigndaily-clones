@@ -1,0 +1,88 @@
+.card1 {
+  width: 509px;
+  aspect-ratio: 509/406;
+  background: white;
+  padding: 5rem 3.75rem;
+  border-radius: 1rem;
+}
+.card1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 1.25rem;
+}
+.card1-graph {
+  height: 100%;
+  width: 100%;
+  border-bottom: solid 1px #979797;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.card1-graph::after,
+.card1-graph::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #979797;
+  left: 0;
+  transform: translateY(-50%);
+  bottom: calc(1 / 3 * 100%);
+}
+.card1-graph::before {
+  bottom: calc(2 / 3 * 100%);
+}
+.card1-graph-element {
+  width: 56px;
+  position: relative;
+  z-index: 1;
+}
+.card1-graph-element::after {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: -1rem;
+  font-weight: 700;
+  font-size: 14px;
+}
+.card1-graph-element--current {
+  height: calc(12.2 / 45 * 100%);
+  background: #4f5dfa;
+}
+.card1-graph-element--current::after {
+  content: '12.2%';
+}
+.card1-graph-element--all {
+  height: calc(34.8 / 45 * 100%);
+  background: #43aaf0;
+}
+.card1-graph-element--all::after {
+  content: '34.8%';
+}
+.card1-graph-element--average {
+  height: calc(28.7 / 45 * 100%);
+  background: #8543f0;
+}
+.card1-graph-element--average::after {
+  content: '28.7%';
+}
+.card1-text {
+  display: flex;
+  width: 100%;
+}
+.card1-text p {
+  flex: 1;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .card1 {
+    padding: 2.5rem 1.875rem;
+  }
+}

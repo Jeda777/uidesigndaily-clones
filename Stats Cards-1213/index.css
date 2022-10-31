@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('./card1.css');
+@import url('./card2.css');
+@import url('./card3.css');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #1e274f;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f7f8fa;
+  padding: 4rem 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
