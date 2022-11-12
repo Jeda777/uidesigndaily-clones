@@ -22,3 +22,10 @@ Collection of design clones from https://uidesigndaily.com made with HTML and CS
 - [Design](https://uidesigndaily.com/posts/sketch-stats-cards-analytics-dashboard-day-1213)
 
 ![](./Stats%20Cards-1213/Screenshot.png)
+
+## Stats Cards - 1213
+
+- [Live](https://jeda777.github.io/uidesigndaily-clones/Reviews-1573/index.html)
+- [Design](https://uidesigndaily.com/posts/figma-reviews-day-1573)
+
+![](./Reviews-1573/Screenshot.png)
